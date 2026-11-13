@@ -116,7 +116,10 @@ function App() {
               {configured ? `Server: ${getApiBase() || 'this site'}` : 'Set up server'}
             </button>
           </div>
-          <h1 className="display-5 fw-bold text-center mb-1">LinkLoad</h1>
+          <h1 className="display-5 fw-bold text-center mb-1">
+            <i className="bi bi-cloud-arrow-down-fill text-primary me-2" aria-hidden="true"></i>
+            LinkLoad
+          </h1>
           <p className="lead text-muted text-center mb-0">
             Download online videos in one click
           </p>
