@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+venv/
+.venv/
+
+# Build output
+dist/
+build/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Deployment
+.vercel/
+
+# Operating system
+.DS_Store
+Thumbs.db
